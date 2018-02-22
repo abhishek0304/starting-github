@@ -25,4 +25,3 @@ class calculator:
         print(pow)
         
         
-calculator.modulus(17, 4) 
