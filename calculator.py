@@ -25,3 +25,4 @@ class calculator:
         print(pow)
         
         
+calculator.addition(100, 200)
