@@ -1,12 +1,14 @@
-hrs = input("Enter Hours:")
-h=float(hrs)
+score=float(input("Enter the score"))
 
-if(h<=40):
-    rate=float(input("enter the rate per hour"))
-    pay=h*rate
-    print(pay)
-else:
-    rate=float(input("enter the rate per hour"))
-    r=rate*1.5
-    pay=h*r
-    print(pay)
+
+if(score>=0.9):
+    print("A")
+elif(score>=0.8):
+    print("B")
+elif(score>=0.7):
+    print("C")
+elif(score>=0.6):
+    print("D")
+if(score<0.6):
+    print("F")
+    
