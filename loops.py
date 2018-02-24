@@ -1,5 +1,9 @@
 score=float(input("Enter the score"))
-
+try:
+    score<0.0
+    score>1.0
+except ValueError:
+    print("its not a valid input")
 
 if(score>=0.9):
     print("A")
