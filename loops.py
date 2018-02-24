@@ -1,11 +1,12 @@
-'''
-Created on 21 Feb 2018
+hrs = input("Enter Hours:")
+h=float(hrs)
 
-@author: Brahm Dutt Shastri
-'''
-s=0
-n=int(input("enter the no. of cubes you want to see"))
-for i in range(1,n+1):
-    a=i**3
-    s=s+a
-print(s)
+if(h<=40):
+    rate=float(input("enter the rate per hour"))
+    pay=h*rate
+    print(pay)
+else:
+    rate=float(input("enter the rate per hour"))
+    r=rate*1.5
+    pay=h*r
+    print(pay)
