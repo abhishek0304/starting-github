@@ -1,0 +1,19 @@
+totprime=0
+totcomposite=0
+while(1):
+    n=int(input('enter the no.'))
+    if(n==-1):
+        break
+    is_composite=0
+    for i in range(2,n):
+        if(n%i==0):
+            is_composite=1
+            break
+    if(is_composite):
+        print('composite')
+        totcomposite+=1
+    else:
+        print('prime')
+        totprime+=1   
+print(totcomposite)
+print(totprime)

@@ -1,0 +1,9 @@
+m=int(input('enter the starting year'))
+n=int(input('enter the ending year'))
+print('**********************')
+for i in range(m,n):
+    if(i%4==0):
+        print(i,':','leap year')
+    else:
+        print(i,':','not a leap year')
+print('**********************')    
