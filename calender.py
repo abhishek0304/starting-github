@@ -1,14 +1,13 @@
-startday=int(input('enter the startding day (1-7)'))
-numberofdays=int(input('enter the number of days in a month'))
-print('Sun  Mon  Tue  Wed  Thur  Sat')
-print('**************************')
-for i in range(startday-1):
-    print(end='    ')
-    i=startday-1
-    for j in range(1,numberofdays-1):
-        if(i>6):
-            print()
-            i=1
-        else:
-            i=i+1
-        print(str(j)+'   ',end=' ')
+import calendar
+print(calendar.month(2018,1))
+print(calendar.month(2018,2))
+print(calendar.month(2018,3))
+print(calendar.month(2018,4))
+print(calendar.month(2018,5))
+print(calendar.month(2018,6))
+print(calendar.month(2018,7))
+print(calendar.month(2018,8))
+print(calendar.month(2018,9))
+print(calendar.month(2018,10))
+print(calendar.month(2018,11))
+print(calendar.month(2018,12))
